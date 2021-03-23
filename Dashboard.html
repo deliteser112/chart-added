@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+	<div class="my-container">
+		<div class="card-position">
+			<div class="credit-card">
+				<div class="card-title">My Credit Card</div>
+				<div class="credit-card-content">
+					<img src="image/visa-card.png" class="card-image">
+					<div class="visa-mark">VISA</div>
+					<div class="card-number">2450 24512 25412</div>
+					<div class="card-bottom">
+						<div class="expire-date">12/05</div>
+						<div class="company-mark">SUBASH</div>
+					</div>
+				</div>
+				<div class="border-line">
+					<hr/>
+				</div>
+				<div class="card-detail-info">
+					<div class="info-title">
+						<div>Card number:</div>
+						<div>Account Name:</div>
+						<div>Card status:</div>
+					</div>
+					<div class="info-content">
+						<div>2450 24512 25412</div>
+						<div>John Doe</div>
+						<div>Active</div>
+					</div>
+				</div>
+			</div>
+			<div class="statistics">
+				<div class="statistics-top">
+					<div class="card-title st-card">Statistics</div>
+					<div class="statis-date st-card">
+						<select>
+							<option>2018</option>
+						</select>
+						<select>
+							<option>Month</option>
+						</select>
+					</div>
+				</div>
+				<div class="statistics-chart">
+					<!-- <img src="image/chart.png" class="chart"/> -->
+							<!-- <div class="chart" style="width: 40%;"> -->
+								<canvas id="myChart" width="700" height="400"></canvas>
+							<!-- </div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+<script src="js/chart.js"></script>
+
+</html>
